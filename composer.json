@@ -1,0 +1,33 @@
+{
+    "name": "wxfallstar\/laravel-shop",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wxfallstar",
+            "email": "wxfallstar@qq.com"
+        }
+    ],
+    "require": {},
+    "replace": {
+        "wxfallstar/laravel-shop-wap-member":"self.version"
+    },
+    "autoload": {
+        "files": [
+            "src/Wap/Shop/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Wxfallstar\\LaravelShop\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wxfallstar\\LaravelShop\\Wap\\Member\\Providers\\MemberServiceProvider",
+                "Wxfallstar\\LaravelShop\\Wap\\Shop\\Providers\\ShopServiceProvider",
+                "Wxfallstar\\LaravelShop\\Data\\Goods\\Providers\\GoodsServiceProvider",
+                "Wxfallstar\\LaravelShop\\Extend\\Artisan\\ArtisanServiceProvider"
+            ]
+        }
+    }
+}

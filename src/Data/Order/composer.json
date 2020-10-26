@@ -1,0 +1,17 @@
+{
+    "name": "wxfallstar\/laravel-shop-data-order",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xufang.wang",
+            "email": "xufang.wang@deepcam.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wxfallstar\\LaravelShop\\Data\\Order\\": ""
+        }
+    }
+}

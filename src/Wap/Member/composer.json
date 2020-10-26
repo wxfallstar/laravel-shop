@@ -1,0 +1,19 @@
+{
+    "name": "wxfallstar\/laravel-shop-wap-member",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wxfallstar",
+            "email": "wxfallstar@qq.com"
+        }
+    ],
+    "require": {
+        "overtrue/laravel-wechat": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wxfallstar\\LaravelShop\\Wap\\Member\\": ""
+        }
+    }
+}

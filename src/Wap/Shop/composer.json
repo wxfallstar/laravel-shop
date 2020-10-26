@@ -1,0 +1,17 @@
+{
+    "name": "Wxfallstar\/laravel-shop-wap-shop",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xufang.wang",
+            "email": "xufang.wang@deepcam.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wxfallstar\\LaravelShop\\Wap\\Shop\\": ""
+        }
+    }
+}
